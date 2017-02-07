@@ -1,0 +1,77 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.contentIcon {
+    font-size: 10em;
+    color: white;
+}
+
+.containerIcon {
+    padding: 10em 0 1em 0;
+    background-color: #ffdd00;
+    height: 30em;
+}
+
+.containerText {
+    padding-left: 2em;
+}
+
+.footer{
+    border-top: solid 1px grey;
+    margin-top: 1em;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  padding-top: 1em;
+  background: #ffdd00;
+}
+ 
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #F45B69;
+  color: white;
+}
+ 
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li div {
+  left: 45px;
+}
+ 
+.timeline ul li div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+
+
+
